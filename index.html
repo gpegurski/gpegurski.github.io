@@ -3,80 +3,27 @@
     <head>
         <meta charset="utf-8">
         <title>Grazziele Pegurski - Portifólio Web</title>
-        <style>
-            body {
-                background-color: #f5e9e2;
-                padding-top: 10px;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size:medium 
-                  }
-            
-            h1 {
-                font-family: Arial, Helvetica, sans-serif
-                
-            }
-            h2 {
-                font-style: italic
-            }
-            .fonte {
-                font-family: cursive;
-                font-size: large;
-            }
-            .cor {
-                    
-            }
-            .foto-perfil {
-                border-radius: 50%;
-                border: 3px solid #d44d5c;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                padding: 2px;
-            }
-            .alinhamento {
-                color: #ac2939;
-                text-align: center;
-                
-            }
-            .botão {
-                color: #f5e9e2;
-                font-weight: bolder;
-                background-color: #d44d5c;
-                text-decoration: none;
-                width: 80px;
-                border-radius: 8px;
-                margin-left: 40px;
-                padding: 8px
-                }
-            .botão-separado {
-                color:#f5e9e2;
-                font-weight: bolder;
-                background-color: #ac2939;
-                text-decoration: none;
-                width: 90px;
-                border-radius: 8px;
-                margin-left: 20px;
-                padding: 8px;
-            }
-            
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
     </head>
     <body>
-        
-            <a class="cor botão"href="#descrição">Sobre mim</a>
-            <a class="cor botão" href="#habilidades">Habilidades</a>
-    
-
-        <h1 class="alinhamento">Grazziele B. Pegurski</h1>
-        <h2 class="alinhamento">Portfólio Web</h2>
-        <p><img src="eu.jpeg" width="200" class="foto-perfil" alt="Foto da Grazziele"></p>
-        <h4><a href="https://scontent.fcfc1-1.fna.fbcdn.net/v/t1.0-9/100625576_2902560049839383_6993381392788750336_o.jpg?_nc_cat=108&_nc_sid=84a396&_nc_ohc=tK2n9kAnmb0AX96KpDz&_nc_ht=scontent.fcfc1-1.fna&oh=c6deff277554d4b447b5524e139f358d&oe=5F2D09BF" class="cor botão">Ampliar a foto</a></h4>
+    <header>
+        <nav>
+            <a class="botão"href="#descrição">Sobre mim</a>
+            <a class="botão" href="#habilidades">Habilidades</a>
+        </nav>
+        <section>
+            <h1 class="alinhamento">Grazziele B. Pegurski</h1>
+            <h2 class="alinhamento">Portfólio Web</h2>
+            <p><img src="eu.jpeg" width="200" class="foto-perfil" alt="Foto da Grazziele"></p>
+            <h4><a href="https://scontent.fcfc1-1.fna.fbcdn.net/v/t1.0-9/100625576_2902560049839383_6993381392788750336_o.jpg?_nc_cat=108&_nc_sid=84a396&_nc_ohc=tK2n9kAnmb0AX96KpDz&_nc_ht=scontent.fcfc1-1.fna&oh=c6deff277554d4b447b5524e139f358d&oe=5F2D09BF" class="cor botão">Ampliar a foto</a></h4>
+        </section>
         <hr>
-        <p class="fonte" id="descrição">Brasileira, nasci e resido em <em>Curitiba-PR</em>. Apaixonada pela <strong>vida</strong>, pela música e pelos livros. </p>
+    </header>
+    <article>
+        <p class="fonte">Brasileira, nasci e resido em <em>Curitiba-PR</em>. Apaixonada pela <strong>vida</strong>, pela música e pelos livros. </p>
 
         <h3 id="habilidades">Habilidades</h3>
-        <ul>
+        <ul class="mylist">
 
             <li>Integridade</li>
             <li><strong>Flexibilidade</strong></li>    
@@ -85,8 +32,10 @@
             <li><em><strong>Ética</strong></em></li>
             <li>Prestatividade</li>
         </ul>
+    </article>
+    <footer>
         <a class="cor botão-separado" href="https://www.pensador.com/textos" target="_blank">Indicação de um bom site</a>
-
+    </footer>
 
     </body>
 
